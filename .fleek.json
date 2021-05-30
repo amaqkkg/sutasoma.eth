@@ -9,7 +9,7 @@
   "build": {
     "baseDir": "",
     "publicDir": "public",
-    "command": "npm install --prefix ./themes/ghostwriter ./themes/ghostwriter && hugo",
+    "command": "npm install --prefix ./themes/ghostwriter && hugo",
     "rootDir": ""
   }
 }
