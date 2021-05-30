@@ -6,7 +6,7 @@ relativeURLS=true
 summaryLenght = 70
 disqusShortname = "sutasoma"
 copyright = "Faris Maulana"
-
+pygmentsUseClasses=true
 
 [permalinks]
     posts = "/:year/:month/:day/:title/"

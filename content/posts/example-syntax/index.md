@@ -1,8 +1,7 @@
 ---
-author: Dirk Olbrich
-title: Lorem Markdownum
-date: 2021-01-07
-draft: true
+title: "Example Syntax"
+date: 2021-01-29T21:49:58+07:00
+draft: false
 ---
 
 ## Amens nitentior vires
