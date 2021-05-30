@@ -1,0 +1,15 @@
+{
+  "site": {
+    "id": "d3b11cff-31df-4447-a31e-7ae7c34626e2",
+    "team": "sutasoma-team",
+    "platform": "ipfs",
+    "source": "github",
+    "name": "autumn-cake-0361"
+  },
+  "build": {
+    "baseDir": "",
+    "publicDir": "public",
+    "command": "npm install --prefix ./themes/ghostwriter ./themes/ghostwriter && hugo",
+    "rootDir": ""
+  }
+}
