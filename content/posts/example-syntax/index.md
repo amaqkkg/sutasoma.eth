@@ -1,7 +1,7 @@
 ---
 title: "Example Syntax"
 date: 2021-01-29T21:49:58+07:00
-draft: false
+draft: true
 ---
 
 ## Amens nitentior vires

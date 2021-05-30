@@ -3,7 +3,7 @@ title: "Web Ini Hidup di IPFS"
 description: "Lebih Jauh Tentang Protokol Distribusi File Terbesar di Planet Bumi"
 author: Faris Maulana
 date: 2021-05-29T21:32:27+07:00
-draft: false
+draft: true
 ---
 
 Istri penulis berpendapat bahwa penulis memang suka melakukan hal yang tidak perlu, seperti menghosting blognya sendiri.
@@ -26,7 +26,13 @@ HTTP. Internet tidak jauh dari HTTP.
 
 HTTP ini semacam rambu lalu lintas yang ada dijalanan, yang kita sering lihat namun tidak tahu arti dan tujuannya. *Betul?*
 
-HTTP sebenarnya sebuah aturan atau protokol dimana tatacara komunikasi antara *client* dan *host* (server) diatur (komunikasi ini disebut *peer-to-peer*). Ada komunikasi antara *client* yang me-*request* *file/dynamic document* (seperti HTML) via *web browser* dimana agar file tersebut dapat diakses oleh si *client*. Misalnya kita ingin mengakses laman berisi video di youtube, maka dengan *web browser* akan di-*translate* untuk menampilkan konten tersebut dari server youtube. Walaupun terlihat ada komunikasi antara client dan server, protokol ini sangat tergantung terhadap apa yang ada di server. Misalnya saja laman video yang kita request dihapus oleh youtube di servernya, maka saat kita ingin mengaksesnya kembali pasti akan mendapatkan warning bahwa laman video tersebut sudah tidak tersedia. Dari sini terlihat peran server sebagai tempat me-maintain segala jenis file yang dapat diakses di internet. Model HTTP ini sangat tersentralisasi di setiap server yang ada. Belum lagi dengan adanya jarak antara server dengan client, misalnya server ada di Jakarta dan client berada di Hawaii, maka request client ke server dan mengirim hasil request tersebut ke client membutuhkan waktu dan biaya yang lumayan banyak. HTTP memang menunjuk file secara lokasi, baik dari segi geo-location dan juga lokasi file tersebut di server. Metode ini disebut sebagai *Location-Based Addressing*.
+{{< figure src="/images/HTTP.jpg" alt="skema HTTP" width="100px" class="about-center" >}}
+
+HTTP sebenarnya sebuah aturan atau protokol dimana tatacara komunikasi antara *client* dan *host* (server) diatur (komunikasi ini disebut *peer-to-peer*). Ada komunikasi antara *client* yang me-*request* *file/dynamic document* (seperti HTML) via *web browser* dimana agar file tersebut dapat diakses oleh si *client*. Misalnya kita ingin mengakses laman berisi video di youtube, maka dengan *web browser* akan di-*translate* untuk menampilkan konten tersebut dari server youtube. Walaupun terlihat ada komunikasi antara client dan server, protokol ini sangat tergantung terhadap apa yang ada di server. Misalnya saja laman video yang kita request dihapus oleh youtube di servernya, maka saat kita ingin mengaksesnya kembali pasti akan mendapatkan warning bahwa laman video tersebut sudah tidak tersedia. Dari sini terlihat peran server sebagai tempat me-maintain segala jenis file yang dapat diakses di internet.
+
+{{< figure src="/images/jkt-hawaii.jpg" alt="jauhnyaaa" width="100px" class="about-center" >}}
+
+Model HTTP ini sangat tersentralisasi di setiap server yang ada. Belum lagi dengan adanya jarak antara server dengan client, misalnya server ada di Jakarta dan client berada di Hawaii, maka request client ke server dan mengirim hasil request tersebut ke client membutuhkan waktu dan biaya yang lumayan banyak. HTTP memang menunjuk file secara lokasi, baik dari segi geo-location dan juga lokasi file tersebut di server. Metode ini disebut sebagai *Location-Based Addressing*.
 
 ### Location-Based Addressing
 
@@ -63,7 +69,23 @@ Gampangnya begini, web yang tersentralisasi yang sudah disebutkan diatas berbica
 
 *Bedanya?*
 
-Bedanya adalah, Location-Based Addressing memberitahu komputer *dimana* ia akan menemukan file/konten yang ditunjuk, sedangkan IPFS
+Bedanya adalah, Location-Based Addressing memberitahu komputer *dimana* ia akan menemukan file/konten yang ditunjuk, sedangkan IPFS memberitahu *isi konten* apa yang akan dicari.
+
+Agar semakin mudah dipahami, kita coba untuk membuat analogi. Misalnya ada 2 orang sahabat bernama Aci dan Budi. Mereka adalah penggemar Harry Potter. Walaupun mereke penggemar, namun mereka belum pernah membaca bukunya, hanya mengetahui dari film. Sehingga mereka bertanya kepada saya yang kebetulan sedang menulis tentang distributed website. Walaupun saya bukan penggemar Harry Potter, namun saya secara ajaib tahu karena saya yang membuat cerita ini. Saya memberikan respon yang berbeda kepada mereka demi memudahkan pembaca mengerti dan memahami apa yang sedang saya tulis.
+
+Kepada Aci saya berkata:
+>Novel Harry Potter and the Sorcerer's Stone ya? kamu bisa menemukannya di Perpustakaan Daerah Jalan Gatot Subroto Nomor 1337, Bandung. Posisinya ada di lantai 2 di rak buku bagian fiksi non terjemahan. Tepatnya dirak bagian tengah yang menghadap timur dan berada di pojok kanan atas, urutannya 5 buku dari kanan.
+
+Aci lalu pergi ke alamat yang saya berikan serta instruksinya dengan wajah gondok. Setelah ia sampai, tentu dia menemukan novelnya. Ya karena saya bukan orang usil yang suka mengerjai orang.
+
+Kepada Budi saya berkata:
+>Novel Harry Potter and the Sorcerer's Stone ya? Ini nomor ISBN nya: 0439708184. Silahkan dicari.
+
+Budi lalu mencatat nomor ISBN tersebut dan langsung pergi mencari novel tersebut. Budi memiliki lebih banyak pilihan lokasi untuk mencari novel tersebut, entah di rumah teman, perpustakaan kampus, perpustakaan daerah, toko buku, dan lain sebagainya. Jaminan isi novel akan selalu sama dimanapun ia menemukannya, asalkan kode ISBN nya sama seperti yang sebelumnya sudah dicatat.
+
+
+
+
 
 ### Lebih Jauh tentang Content Adressing
 
