@@ -7,6 +7,7 @@
     "name": "autumn-cake-0361"
   },
   "build": {
+    "image": "node:slim",
     "baseDir": "",
     "publicDir": "public",
     "command": "npm install --prefix ./themes/ghostwriter && hugo",
