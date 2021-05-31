@@ -7,10 +7,7 @@ summaryLenght = 70
 disqusShortname = "sutasoma"
 copyright = "Faris Maulana"
 pygmentsUseClasses=true
-
-[params.plausible]
-  enable = true  # Whether to enable plausible tracking
-  domain = "sutasoma.eth.link"  # Plausible "domain" name/id in your dashboard
+paginate = "10" # Number of posts per page
 
 
 [permalinks]
