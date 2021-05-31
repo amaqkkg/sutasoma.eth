@@ -3,7 +3,8 @@ author: Faris Maulana
 title: Mengenal Blockchain
 description: dan membedakan bitcoin dengan blockchain
 date: 2021-05-28
-comments: yes
+copyright: "Unless otherwise noted, all blog posts, photos, graphics, presentations and other media and assets are copyrighted work with all rights reserved. Unless otherwise noted, all code snippets are available under the Unlicense."
+comments: true
 ---
 
 

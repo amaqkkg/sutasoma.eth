@@ -4,6 +4,8 @@ title: "Ethereum : Bitcoin 2.0"
 description: dan mengapa ini penting
 date: 2021-05-29T14:32:05+07:00
 draft: false
+copyright: "Unless otherwise noted, all blog posts, photos, graphics, presentations and other media and assets are copyrighted work with all rights reserved. Unless otherwise noted, all code snippets are available under the Unlicense."
+comments: true
 ---
 
 *sebelumnya telah di-post di [sini](https://sutasomablog.wordpress.com/2017/10/29/ethereum-bitcoin-2-0/).*

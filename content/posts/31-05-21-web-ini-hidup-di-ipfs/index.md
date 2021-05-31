@@ -4,6 +4,8 @@ description: "Lebih Jauh Tentang Protokol Distribusi File Terbesar di Planet Bum
 author: Faris Maulana
 date: 2021-05-31T01:09:00+07:00
 draft: false
+copyright: "Unless otherwise noted, all blog posts, photos, graphics, presentations and other media and assets are copyrighted work with all rights reserved. Unless otherwise noted, all code snippets are available under the Unlicense."
+comments: true
 ---
 
 Istri penulis berpendapat bahwa penulis memang suka melakukan hal yang tidak perlu, seperti meng-*hosting* blognya sendiri.

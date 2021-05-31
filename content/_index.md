@@ -1,6 +1,6 @@
 ---
 author: Faris Maulana
-title: Hi, and welcome.
+title: A Blog by Faris Maulana (amaqkkg).
 date: 2021-05-28
 ---
 
